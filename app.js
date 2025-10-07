@@ -39,13 +39,3 @@ document.getElementById("formEleve").addEventListener("submit", (e) => {
   const prenom = document.getElementById("prenom").value.trim();
   ajouterEleve(nom, postNom, prenom);
 });
-prenom);
-});
-ajouterUtilisateur(
-  "admin001", // identifiant du document
-  "Gabby Umba",
-  "gabby@example.com",
-  "prefetEtudes",
-  "Préfet des études"
-);
-
