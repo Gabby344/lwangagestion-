@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ajouter un utilisateur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>👤 Ajouter un utilisateur</h2>
+
+  <form id="formAjoutUtilisateur">
+    <input type="text" id="nom" placeholder="Nom complet" required>
+    <input type="email" id="email" placeholder="Email" required>
+
+    <select id="role" required>
+      <option value="">-- Sélectionner un rôle --</option>
+      <option value="prefetEtudes">Préfet des études</option>
+      <option value="directeurEtudes">Directeur des études</option>
+      <option value="directeurDiscipline">Directeur de discipline</option>
+      <option value="secretaire">Secrétaire</option>
+      <option value="econome">Économe</option>
+      <option value="enseignant">Enseignant</option>
+      <option value="parent">Parent</option>
+      <option value="eleve">Élève</option>
+    </select>
+
+    <button type="submit">➕ Ajouter</button>
+  </form>
+
+  <div id="confirmation"></div>
+
+  <script type="module" src="ajout_utilisateur.js"></script>
+</body>
+</html>
